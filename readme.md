@@ -1,5 +1,13 @@
 ## oj 输出文件正确判断
 
+## 安装
+
+```
+mkdir build
+cd build && cmake ..
+make && sudo make install
+```
+
 ## 使用
 
 ```
