@@ -1,3 +1,10 @@
+## 安装
+
+```
+rm -rf build && mkdir build && cd build && cmake ..
+make || exit 1
+make install
+```
 ## oj 输出文件正确判断
 
 ## 使用
