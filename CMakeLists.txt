@@ -16,7 +16,7 @@ foreach(f ${SOURCE})
     string(REPLACE ${CMAKE_CURRENT_SOURCE_DIR}/src/ "" name ${testname})
     # message(${name})
     add_executable(${name} ${f})
-    install(TARGETS ${name}  RUNTIME DESTINATION /judge/checker)
+    # install(TARGETS ${name}  RUNTIME DESTINATION /judge/checker)
 endforeach(f)
 
 # install(DIRECOTRY ${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/  RUNTIME DESTINATION /judge/checker)
